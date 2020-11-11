@@ -6,7 +6,7 @@
 
 <hr>
 
-<a href="/celebrities/new"> Add a new celebrity</a>
+<a href="/celebrities/new"  class="button"> Add a new celebrity</a>
 
 <hr>
 
@@ -17,11 +17,11 @@
     {{name}}
   </h3>
 
-<a href="/celebrities/{{_id}}"> See Star details</a>
-<a href="/celebrities/{{_id}}/edit"> Edit star's page</a>
+<a href="/celebrities/{{_id}}"  class="button"> See Star details</a>
+<a href="/celebrities/{{_id}}/edit"  class="button"> Edit star's page</a>
 
 <form action="/celebrities/{{_id}}/delete" method="POST">
-<button type="submit">Delete</button>
+<button type="submit"  class="button">Delete</button>
 </form>
 
 {{/each}}

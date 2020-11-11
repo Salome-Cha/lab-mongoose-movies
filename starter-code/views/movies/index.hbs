@@ -5,7 +5,7 @@
 <h2>Movies List</h2>
 
 <hr>
-<a href="/movies/new"> Add a new movie</a>
+<a href="/movies/new"  class="button"> Add a new movie </a>
 <hr>
 
 
@@ -15,12 +15,12 @@
     {{title}}
   </h3>
 
-<a href="/movies/{{_id}}"> See movie details</a>
-<a href="/movies/{{_id}}/edit"> Edit movie's page</a>
+<a href="/movies/{{_id}}"  class="button"> See movie details</a>
+<a href="/movies/{{_id}}/edit"  class="button"> Edit movie's page</a>
 
 
 <form action="/movies/{{_id}}/delete" method="POST">
-<button type="submit">Delete</button>
+<button type="submit"  class="button">Delete</button>
 </form>
 
 {{/each}}
